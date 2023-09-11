@@ -1,0 +1,11 @@
+
+--------------When we use MongoDB instead of MySQL---------------------------
+
+* use @Document annotation in place of @Entity
+* to name table use @Document(collection="name") place of @Entity(table="name")
+* use MongoRepository<Class,Type> in place of JpaRepository
+
+** in properties file
+* use spring.data.mongodb.host= hostname if any/localhost
+* use spring.data.mongodb.port=given port from mongodb
+* use spring.data.mongodb.database=database name  

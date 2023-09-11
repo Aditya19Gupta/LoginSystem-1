@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+}
+.card{
+	height: 18rem!important;
+	background-color: beige;
+	box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.5);
+	
+}
+.carousel li{
+	margin-top: -40%;
+}
+.carousel-inner{
+	border-radius: 20px;
+}
+.carousel{
+	margin-top: 10%;
+	width: 35rem;
+	
+	
+}
